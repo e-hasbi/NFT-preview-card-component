@@ -9,7 +9,21 @@ body {
     color: hsl(0, 0%, 100%)
 }
 
+.main-card {
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    margin: 100px auto;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.main-img img {
+    width: 255px;
+    margin-top: 1em;
+    border-radius: 0.5em;
+}
 
 .attribution {
     font-size: 11px;
