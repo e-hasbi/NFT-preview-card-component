@@ -61,6 +61,10 @@ body {
     background: rgba(0, 255, 247, 0.6) url("./images/icon-view.svg") center/3rem no-repeat;
 }
 
+.card-description h1 {
+    font-size: 1rem;
+}
+
 .card-description p {
     color: var(--primary--clr);
     font-size: 0.9rem;
@@ -115,13 +119,11 @@ body {
     color: var(--primary--clr);
 }
 
-h4:hover,
+h1:hover,
 .author-name:hover {
     color: var(--hover--color);
     cursor: pointer;
 }
-
-
 
 
 
