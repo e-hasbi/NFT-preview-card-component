@@ -17,8 +17,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [NotYET]()
-- Live Site URL: [NotYET]()
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-HybWkt57q](https://www.frontendmentor.io/solutions/nft-preview-card-HybWkt57q)
+- Live Site URL: [https://e-hasbi.github.io/NFT-preview-card-component/](https://e-hasbi.github.io/NFT-preview-card-component/)
 
 ### Object
 
