@@ -34,10 +34,31 @@ main {
     margin: 1rem;
 }
 
+.main-img {
+    height: auto;
+    position: relative;
+    display: block;
+}
+
+
 .main-img img {
     width: 100%;
     border-radius: 0.5rem;
-    margin-top: 1rem;
+}
+
+.main-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 0.5rem;
+}
+
+.main-img:hover::after,
+.main-img:active::after {
+    background: rgba(0, 255, 247, 0.6) url("./images/icon-view.svg") center/3rem no-repeat;
 }
 
 .card-description p {
@@ -93,6 +114,16 @@ main {
 .first-span {
     color: var(--primary--clr);
 }
+
+h4:hover,
+.author-name:hover {
+    color: var(--hover--color);
+    cursor: pointer;
+}
+
+
+
+
 
 .attribution {
     font-size: 11px;
