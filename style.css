@@ -20,7 +20,7 @@ body {
     justify-content: center;
 }
 
-main {
+.content {
     width: 300px;
     background-color: hsl(216, 50%, 16%);
     margin: 0 auto;
@@ -35,9 +35,8 @@ main {
 }
 
 .main-img {
-    height: auto;
     position: relative;
-    display: block;
+    margin-top: 1rem;
 }
 
 
